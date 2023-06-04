@@ -12,7 +12,7 @@ export const Footer = (props) => {
   })()
 
   return <footer className="relative w-full bg-black px-6 border-t">
-        <DarkModeButton className='text-center pt-4'/>
+        {/* <DarkModeButton className='text-center pt-4'/> */}
 
         <div className="text-neutral-100 container mx-auto max-w-4xl py-6 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm">
             <div className='text-center'> &copy;{`${copyrightDate}`} {BLOG.AUTHOR}. All rights reserved.</div>
